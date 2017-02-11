@@ -21,10 +21,11 @@ var tour = {
     {
       title: "Top Navigation",
       content: "Use the top navigation to discover the types of content available.",
-      target: "top-nav",
+      target: "top-nav-container",
       placement: "bottom",
       arrowOffset: "center",
-      width: "570px",
+      xOffset: "150px",
+      width: "400px",
       onShow: function () {
         // Show the arrow again
         $('.hopscotch-bubble-arrow-container').css('visibility', 'visible');
